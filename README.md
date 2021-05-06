@@ -32,6 +32,7 @@ As a beginner in the field of Machine Learning, I wanted to start with NLP. Sent
 *If you notice, the root words doesn't need to carry a semantic meaning. There is another technique knows as Lemmatization where it converts the words into root words which has a semantic meaning. Simce it takes time. I'm using stemming**
 
 **N-gram analysis**-N-grams of texts are extensively used in text mining and natural language processing tasks. They are basically a set of co-occurring words within a given window and when computing the n-grams you typically move one word forward.
+
 ![ngram](https://user-images.githubusercontent.com/69259443/117281022-d48d2980-ae80-11eb-8146-53a81bd76357.png)
 
 **Polarity**-TextBlob returns polarity and subjectivity of a sentence. Polarity lies between [-1,1], -1 defines a negative sentiment and 1 defines a positive sentiment. Negation words reverse the polarity. TextBlob has semantic labels that help with fine-grained analysis. For example — emoticons, exclamation mark, emojis, etc.
